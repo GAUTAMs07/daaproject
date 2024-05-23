@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>CodeFlow Visualizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="cont">
+
+            <span id="openSidebar" onclick="openNav()"><i class='bx bx-sidebar'></i></span>
+            <div class="title-container data-nosnippet" id="title-container">
+                <a href="#"></a>
+                <span class="display-1 loading-animation glow">C</span>
+                <span class="display-1 loading-animation glow">O</span>
+                <span class="display-1 loading-animation glow">D</span>
+                <span class="display-1 loading-animation glow">E</span>
+                <span class="display-1 loading-animation glow">-</span>
+                <span class="display-1 loading-animation glow">F</span>
+                <span class="display-1 loading-animation glow">L</span>
+                <span class="display-1 loading-animation glow">O</span>
+                <span class="display-1 loading-animation glow">W</span>
+                <span class="display-1 loading-animation glow">&nbsp</span>
+                <span class="display-1 loading-animation glow">V</span>
+                <span class="display-1 loading-animation glow">I</span>
+                <span class="display-1 loading-animation glow">S</span>
+                <span class="display-1 loading-animation glow">U</span>
+                <span class="display-1 loading-animation glow">A</span>
+                <span class="display-1 loading-animation glow">L</span>
+                <span class="display-1 loading-animation glow">I</span>
+                <span class="display-1 loading-animation glow">S</span>
+                <span class="display-1 loading-animation glow">E</span>
+                <span class="display-1 loading-animation glow">R</span>
+            </div>
+            <div class="theme">
+                <button id="themeToggle" class="toggle-button" onclick="toggleTheme()">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="./BubbleSort.html">Bubble Sort</a>
+                <a href="./heapSort.html">Heap Sort</a>
+                <a href="./insertionSort.html">Insertion Sort</a>
+                <a href="./mergeSort.html">Merge Sort</a>
+                <a href="./quickSort.html">Quick Sort</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row1">
+        <div class="column">
+            <div class="card"> <b>Bubble Sort </b> <br> Time Complexity : O(n<sup>2</sup>) <br> Space Complexity : O(1)
+                <br>
+                <a href="./BubbleSort.html">
+                    <button>Bubble Sort</button>
+                </a>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card"> <b>Heap Sort</b> <br> Time Complexity : O(n log n) <br> Space Complexity : O(1)
+                <br>
+                <a href="./heapSort.html">
+                    <button>Heap Sort</button>
+                </a>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card"><b>Insertion Sort</b> <br> Time Complexity : O(n <sup>2</sup>) <br> Space Complexity :
+                O(1) <br>
+                <a href="./insertionSort.html">
+                    <button>Insertion Sort</button>
+                </a> 
+            </div>
+        </div>
+    </div>
+    <div class="row2">
+        <div class="column">
+            <div class="card"><b>Merge Sort</b> <br> Time Complexity : O(n log n) <br> Space Complexity : O(n) <br>
+                <a href="./mergeSort.html">
+                    <button>Merge Sort</button>
+                </a>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card"><b>Quick Sort</b> <br> Time Complexity : O(n <sup>2</sup>) <br> Space Complexity : O(n log
+                n) <br>
+                <a href="./quickSort.html">
+                    <button>Quick Sort</button>
+                </a> 
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <b>~ Sumit Guatam</b>   
+    </div>
+    
+
+    <script src="home.js"></script>
+</body>
+
+</html>
